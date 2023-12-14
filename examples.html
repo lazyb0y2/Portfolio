@@ -290,8 +290,90 @@
     result = int(number1) * int(number2)
 
   print(result)
+</pre>
+<br>
+<h3 class="pg6">Here is a code for to make a replica of a report card.</h3>
+<pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+
+    &lt;head&gt;
+      &lt;meta charset="utf-8"&gt;
+      &lt;meta name="viewport" content="width=device-width"&gt;
+      &lt;title&gt;replit&lt;/title&gt;
+      &lt;link href="style.css" rel="stylesheet" type="text/css" /&gt;
+      &lt;style&gt;
+        .row1{
+          background-color: darkgray;
+        }
+        .row2,.row4,.row6,.row8{
+          background-color: lightgrey;
+        }
+      &lt;/style&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+      &lt;table border="1"&gt;
+        &lt;tr&gt;
+          &lt;th class="row1"&gt;Course&lt;/th&gt;&lt;th colspan="5" class="row1"&gt;Marking Term&lt;/th&gt;&lt;th colspan="5" class="row1"&gt;        &lt;/th&gt;&lt;th class="row1"&gt;Comments&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th class="row2"&gt;&lt;/th&gt;&lt;th class="row2"&gt;T1&lt;/th&gt;&lt;th class="row2"&gt;T2&lt;/th&gt;
+          &lt;th class="row2"&gt;T3&lt;/th&gt;&lt;th class="row2"&gt;T4&lt;/th&gt;&lt;th class="row2"&gt;T5&lt;/th&gt;
+          &lt;th class="row2"&gt;Exam&lt;/th&gt;&lt;th class="row2"&gt;Final&lt;/th&gt;
+          &lt;th class="row2"&gt;Conduct&lt;/th&gt;&lt;th class="row2"&gt;Effort&lt;/th&gt;
+          &lt;th class="row2"&gt;Absent&lt;/th&gt;&lt;th class="row2"&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th class="row3"&gt;Wellness HS (Harvey)&lt;/th&gt;&lt;th class="row3"&gt;A&lt;/th&gt;
+          &lt;th class="row3"&gt;A&lt;/th&gt;
+          &lt;th class="row3"&gt;A&lt;/th&gt;&lt;th class="row3"&gt;&lt;/th&gt;&lt;th class="row3"&gt;--&lt;/th&gt;
+          &lt;th colspan="4" class="row3"&gt;&lt;/th&gt;
+          &lt;th class="row3"&gt;0&lt;/th&gt;&lt;th class="row3"&gt;positive attitude&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th class="row4"&gt;English Language Arts 11 (Jones)&lt;/th&gt;&lt;th class="row4"&gt;A&lt;/th&gt;
+          &lt;th class="row4"&gt;B&lt;/th&gt;
+          &lt;th class="row4"&gt;B-&lt;/th&gt;&lt;th class="row4"&gt;&lt;/th&gt;&lt;th class="row4"&gt;--&lt;/th&gt;
+          &lt;th colspan="2" class="row4"&gt;&lt;/th&gt;
+          &lt;th class="row4"&gt;B&lt;/th&gt;&lt;th class="row4"&gt;A&lt;/th&gt;
+          &lt;th class="row4"&gt;0&lt;/th&gt;&lt;th class="row4"&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+           &lt;th class="row5"&gt;World History 2 (Genatossio)&lt;/th&gt;&lt;th class="row5"&gt;B-&lt;/th&gt;
+          &lt;th class="row5"&gt;D-&lt;/th&gt;
+          &lt;th class="row5"&gt;D&lt;/th&gt;&lt;th class="row5"&gt;&lt;/th&gt;&lt;th class="row5"&gt;--&lt;/th&gt;
+          &lt;th colspan="4" class="row5"&gt;&lt;/th&gt;
+          &lt;th class="row5"&gt;0&lt;/th&gt;&lt;th class="row5"&gt;Improvement noted&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+           &lt;th class="row6"&gt;Advanced Algebra (Shaheed)&lt;/th&gt;&lt;th class="row6"&gt;F+&lt;/th&gt;
+          &lt;th class="row6"&gt;D-&lt;/th&gt;
+          &lt;th class="row6"&gt;B-&lt;/th&gt;&lt;th class="row6"&gt;&lt;/th&gt;&lt;th class="row6"&gt;--&lt;/th&gt;
+          &lt;th colspan="4" class="row6"&gt;&lt;/th&gt;
+          &lt;th class="row6"&gt;0&lt;/th&gt;&lt;th class="row6"&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th class="row7"&gt;Chemistry 1 (Kashef)&lt;/th&gt;&lt;th class="row7"&gt;A-&lt;/th&gt;
+          &lt;th class="row7"&gt;A-&lt;/th&gt;
+          &lt;th class="row7"&gt;A-&lt;/th&gt;&lt;th class="row7"&gt;&lt;/th&gt;&lt;th class="row7"&gt;--&lt;/th&gt;
+          &lt;th colspan="4" class="row7"&gt;&lt;/th&gt;&lt;th class="row7"&gt;&lt;/th&gt;&lt;th class="row7"&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th class="row8"&gt;V Programming & Web Development 3 (Berger)&lt;/th&gt;&lt;th class="row8"&gt;C+&lt;/th&gt;
+          &lt;th class="row8"&gt;C&lt;/th&gt;
+          &lt;th class="row8"&gt;C&lt;/th&gt;&lt;th class="row8"&gt;&lt;/th&gt;&lt;th class="row8"&gt;--&lt;/th&gt;
+          &lt;th colspan="4" class="row8"&gt;&lt;/th&gt;
+          &lt;th class="row8"&gt;0&lt;/th&gt;&lt;th class="row8"&gt;Demonstrates enthusiasm for learning&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+    &lt;/body&gt;
+
+    &lt;/html&gt;
   </pre>
-<!-- Mr.O helped me if anyones intrested-->
+<p>Here's a picture of the card</p>
+<img src="img/exam.png" alt="a coded report card" width="1150">
+<!-- Mr.O helped me if anyone's interested-->
 </body>
 
 </html>
