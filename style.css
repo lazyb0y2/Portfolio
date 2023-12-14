@@ -179,3 +179,8 @@ html {
         font-size: 1.8vw;
     }
 }
+button {
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+}
