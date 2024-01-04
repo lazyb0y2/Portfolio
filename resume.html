@@ -21,6 +21,18 @@
     <a href="certifications.html">Certifications</a>
     <a href="examples.html">Examples</a> <
 </nav>
+
+<button id="speakButton">Text to speech</button>
+<script>
+    const speakButton = document.getElementById('speakButton');
+    speakButton.addEventListener('click', () => {
+        const message = "I'm Mezziah, an awe inspiring Game and Web developer who lives in the city of Boston.I am a student of Madison Park Vocational High School and was part of the vocation called computer programing I started here in the year 2020 and going to graduate in the year 2024. My phone number is 857-615-0021 and My email is mezziahkj06@gmail.com.";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <h1 class="pg2">Hi, My name is Mezziah I'm a Web/Game Developer.</h1>
 <p class="pg2">I'm Mezziah an awe-inspiring Game/Web developer who lives in the city of Boston</p>
 <p class="pg2">My phone number is: <a href="tel:8576150021">857-615-0021</a></p>
@@ -29,6 +41,18 @@
 <p class="pg2">I am a student of Madison Park Vocational High School and was part of the vocation called computer programing I started here in the year 2020 and going to graduate in the year 2024 </p>
 
 <h2 class="pg2">My Skills</h2>
+
+<button id="speakButton2">Text to speech</button>
+<script>
+    const speakButton = document.getElementById('speakButton2');
+    speakButton.addEventListener('click', () => {
+        const message = "Skills. I am a beginner in coding that has a good grasp over HTML and Python ";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <ul class="pg2">
     <li class="pg2">I am a beginner in coding that has a good grasp over HTML and Python.</li>
     <li class="pg2">Also know how to use links and CSS in HTML.</li>
@@ -36,6 +60,18 @@
     <li class="pg2">I have some knowledge of Urban planning and global warming.</li>
 </ul>
 <h2 class="pg2">Work Experience</h2>
+
+<button id="speakButton3">Text to speech</button>
+<script>
+    const speakButton = document.getElementById('speakButton3');
+    speakButton.addEventListener('click', () => {
+        const message = "I had worked at a job called urban planning twice this summer. During my first year, I had to go around interviewing people about the extreme heat crisis going on and recording heat temperature data near parks, parking lots, and bus stops. During the second year, I and other second years were part of a group called urban designers. This is because unlike the first years this time, we were going to design a cooling pocket park design that will be near Roxbury Community College that entails more interviews and a lot of planning, brainstorming and decisions.After my second year of urban planning ended, they gave all the second years an internship to take apart from my internship was with the ABC, also known as A Better City. While working at A Better City, they made me look at some research that was conducted in Boston. One of these were called the urban doom loop and city of Boston heat plan not just that, but I went on trips to the BU/Boston University to see their new thermal heating structure that will be green in energy and Boston Medical Center to see their rooftop garden.";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <p class="pg2">I had worked at a job called urban planning twice this summer. During my first year, I had to go around interviewing people about the extreme heat crisis going on and recording heat temperature data near parks, parking lots, and bus stops. During the second year, I and other second years were part of a group called urban designers. This is because unlike the first years this time, we were going to design a cooling pocket park design that will be near Roxbury Community College that entails more interviews and a lot of planning, brainstorming and decisions.</p>
 <p class="pg2">After my second year of urban planning ended, they gave all the second years an internship to take apart from my internship was with the ABC, also known as A Better City. While working at A Better City, they made me look at some research that was conducted in Boston. One of these were called the urban doom loop and city of Boston heat plan not just that, but I went on trips to the BU/Boston University to see their new thermal heating structure that will be green in energy and Boston Medical Center to see their rooftop garden.</p>
 <h2 class="pg2">Hobbies</h2>
