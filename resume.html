@@ -21,6 +21,7 @@
     <a href="certifications.html">Certifications</a>
     <a href="examples.html">Examples</a> <
 </nav>
+<h1 class="pg2">Hi, My name is Mezziah I'm a Web/Game Developer.</h1>
 
 <button id="speakButton">Text to speech</button>
 <script>
@@ -33,7 +34,6 @@
         window.speechSynthesis.speak(speech);
     });
 </script>
-<h1 class="pg2">Hi, My name is Mezziah I'm a Web/Game Developer.</h1>
 <p class="pg2">I'm Mezziah an awe-inspiring Game/Web developer who lives in the city of Boston</p>
 <p class="pg2">My phone number is: <a href="tel:8576150021">857-615-0021</a></p>
 <p class="pg2">My email is <a href="mailto:mezziahkj06@gmail.com">mezziahkj06@gmail.com</a></p>
@@ -75,6 +75,17 @@
 <p class="pg2">I had worked at a job called urban planning twice this summer. During my first year, I had to go around interviewing people about the extreme heat crisis going on and recording heat temperature data near parks, parking lots, and bus stops. During the second year, I and other second years were part of a group called urban designers. This is because unlike the first years this time, we were going to design a cooling pocket park design that will be near Roxbury Community College that entails more interviews and a lot of planning, brainstorming and decisions.</p>
 <p class="pg2">After my second year of urban planning ended, they gave all the second years an internship to take apart from my internship was with the ABC, also known as A Better City. While working at A Better City, they made me look at some research that was conducted in Boston. One of these were called the urban doom loop and city of Boston heat plan not just that, but I went on trips to the BU/Boston University to see their new thermal heating structure that will be green in energy and Boston Medical Center to see their rooftop garden.</p>
 <h2 class="pg2">Hobbies</h2>
+<button id="speakButton4">Text to speech</button>
+<script>
+    const speakButton4 = document.getElementById('speakButton4');
+    speakButton4.addEventListener('click', () => {
+        const message = "Hobbies. I have five hobbies in my life currently and that is 1.playing video-games 2.going on walks 3.cooking/learning how to cook 4. watching movies and videos and 5.making youtube videos even do I haven't done it in a while";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <ul class="pg2">
     <li class="pg2">Playing video games.</li>
     <li class="pg2">Going on walks.</li>
@@ -83,6 +94,18 @@
     <li class="pg2">making YouTube videos even do I haven't done it in a while.</li>
 </ul>
 <h2 class="pg2">Goals</h2>
+
+<button id="speakButton5">Text to speech</button>
+<script>
+    const speakButton5 = document.getElementById('speakButton5');
+    speakButton5.addEventListener('click', () => {
+        const message = "Goals. I have 4 goals the first one is to make a full-fledged game that a lot of people will like second one is to get a job that i will enjoy the third one is to make life wasier for my mom and my last goal is to live a life without huge regrets.";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <ol class="pg2">
     <li class="pg2">One of my goals is to make a full-fledged game that lots of people will like.</li>
     <li class="pg2">Another goal is to get a job that I will enjoy.</li>
