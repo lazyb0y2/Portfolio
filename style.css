@@ -85,6 +85,9 @@ html {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#ref button{
+    color: black;
+}
 .pg4{
     color: black;
 }
