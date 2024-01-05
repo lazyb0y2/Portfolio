@@ -23,6 +23,18 @@
 </nav>
 
 <h1 class="pg5">Certifications</h1>
+
+<button id="speakButton">Text to speech</button>
+<script>
+    const speakButton = document.getElementById('speakButton');
+    speakButton.addEventListener('click', () => {
+        const message = "I have completed the OSHA 10 online course and got an OSHA certification card after completion of said course.";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <ol class="pg5">
     <li class="pg5"><p class="pg5">I have completed the OSHA 10 online course and got an OSHA certification card after completion of said course.</p></li>
 </ol>
