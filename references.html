@@ -22,6 +22,18 @@
     <a href="examples.html">Examples</a> <
 </nav>
 <h1 class="pg4">My References</h1>
+
+<button id="speakButton">Text to speech</button>
+<script>
+    const speakButton3 = document.getElementById('speakButton');
+    speakButton3.addEventListener('click', () => {
+        const message = "References in this page I have links to emails of people who can vouch for my behalf this includes Ken Reardon from Umass boston, Isabella from the ABC, Yve from the ABC, and Mr.O from the Madison Park";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <ol class="pg4">
     <li class="pg4">Ken Reardon from Umass boston</li>
     <ul class="pg4">
