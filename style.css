@@ -115,6 +115,9 @@ html {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#cert button{
+    color: blue;
+}
 #cert>nav {
     display: block;
     width: 100%;
