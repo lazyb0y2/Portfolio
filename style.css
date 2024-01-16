@@ -190,3 +190,11 @@ button {
     color: white;
     font-size: larger;
 }
+#hide{
+    font-size: 2px;
+}
+.special {
+    background-image: url(img/surprise.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
