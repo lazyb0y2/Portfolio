@@ -440,6 +440,7 @@ print(place)
             const speech = new SpeechSynthesisUtterance(message);
             speech.lang = 'en-US';;
             speech.rate = 0.9;
+            window.speechSynthesis.speak(speech);
     &lt;/script&gt;
 </pre>
 <br>
