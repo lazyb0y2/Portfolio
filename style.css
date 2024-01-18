@@ -199,6 +199,9 @@ button {
     background-size: 100%;
 }
 #awe{
+    background-image: url("img/awarded.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
 
 }
 #awe>nav{
