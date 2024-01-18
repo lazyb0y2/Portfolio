@@ -202,6 +202,7 @@ button {
     background-image: url("img/awarded.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    color: white;
 
 }
 #awe>nav{
@@ -210,4 +211,7 @@ button {
 }
 #awe>nav a{
     color:black ;
+}
+#awe>nav a:hover{
+    color:blueviolet ;
 }
