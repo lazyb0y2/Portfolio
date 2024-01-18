@@ -21,6 +21,17 @@
     <a href="awards.html">Reload</a> <
 </nav>
 <h1 class="pg7">My Awards</h1>
+<button id="speakButton">Text to speech</button>
+<script>
+    const speakButton = document.getElementById('speakButton');
+    speakButton.addEventListener('click', () => {
+        const message = "My Awards. So far, no awards to be mentioned or talked about so, sorry.";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
 <p class="pg7">So far, no awards to be mentioned or talked about so, sorry.</p>
 </body>
 </html>
