@@ -202,7 +202,7 @@ button {
     background-image: url("img/awarded.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    color: white;
+    color: gold;
 
 }
 #awe>nav{
@@ -222,5 +222,5 @@ button {
     color:goldenrod ;
 }
 #awe button {
-    color: goldenrod;
+    color: darkgoldenrod;
 }
