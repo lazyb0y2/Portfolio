@@ -12,7 +12,7 @@ html {
 }
 #navigation a {
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: #b361a8;
     font-family: 'Montserrat', sans-serif;
@@ -41,7 +41,7 @@ html {
 }
 #res>nav a{
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: darkgrey;
 }
@@ -65,7 +65,7 @@ html {
 }
 #pro>nav a{
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: blue;
     font-family: 'Montserrat', sans-serif;
@@ -99,7 +99,7 @@ html {
 }
 #ref>nav a{
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: crimson;
     font-family: 'Montserrat', sans-serif;
@@ -126,7 +126,7 @@ html {
 }
 #cert>nav a{
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: gold;
     font-family: 'Montserrat', sans-serif;
@@ -148,7 +148,7 @@ html {
 }
 #ex>nav a{
     display: inline-block;
-    width: 15%;
+    width: 13%;
     height: 25px;
     color: #43ea43;
     font-family: 'Montserrat', sans-serif;
@@ -197,4 +197,14 @@ button {
     background-image: url(img/surprise.jpeg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+#awe{
+
+}
+#awe>nav{
+    background-color: ;
+    color: ;
+}
+#awe>nav a{
+    color: ;
 }
