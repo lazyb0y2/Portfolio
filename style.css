@@ -28,9 +28,12 @@ html {
 }
 #res {
     color: white;
-    background-image: url(img/back1r2.png);
+    background-image: url(img/Aura.gif);
     background-repeat: no-repeat;
     background-size: 200%;
+}
+#res button{
+    color: #43ea43;
 }
 #res>nav {
     display: block;
