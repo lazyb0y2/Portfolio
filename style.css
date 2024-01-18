@@ -210,6 +210,9 @@ button {
     color: black;
 }
 #awe>nav a{
+    color:dimgrey ;
+}
+#awe>nav a:visited{
     color:black ;
 }
 #awe>nav a:hover{
