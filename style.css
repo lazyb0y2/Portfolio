@@ -12,7 +12,7 @@ html {
 }
 #navigation a {
     display: inline-block;
-    width: 13%;
+    width: 19.5%;
     height: 25px;
     color: #b361a8;
     font-family: 'Montserrat', sans-serif;
@@ -56,7 +56,7 @@ html {
 }
 #res>nav a{
     display: inline-block;
-    width: 13%;
+    width: 19.5%;
     height: 25px;
     color: darkgrey;
 }
@@ -92,7 +92,7 @@ html {
 }
 #pro>nav a{
     display: inline-block;
-    width: 13%;
+    width: 19.5%;
     height: 25px;
     color: blue;
     font-family: 'Montserrat', sans-serif;
@@ -107,33 +107,6 @@ html {
 .pg2 a:hover {
     color: deeppink;
 }
-#cert {
-    background-image: url(img/back3.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-#cert button{
-    color: blue;
-}
-#cert>nav {
-    display: block;
-    width: 100%;
-    background-color: #0d0d8c;
-    color: #e6cf8e;
-}
-#cert>nav a{
-    display: inline-block;
-    width: 13%;
-    height: 25px;
-    color: gold;
-    font-family: 'Montserrat', sans-serif;
-}
-#cert>nav a:visited {
-    color: goldenrod;
-}
-#cert>nav a:hover {
-    color: #e56e43;
-}
 #ex {
     background-color: black;
     color: #43ea43;
@@ -145,7 +118,7 @@ html {
 }
 #ex>nav a{
     display: inline-block;
-    width: 13%;
+    width: 19.5%;
     height: 25px;
     color: #43ea43;
     font-family: 'Montserrat', sans-serif;
