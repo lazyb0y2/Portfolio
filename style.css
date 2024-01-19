@@ -32,6 +32,18 @@ html {
     background-repeat: no-repeat;
     background-size: 200%;
 }
+#res h2 {
+    color: chartreuse;
+}
+#res h1 {
+    color: chartreuse;
+}
+#res p{
+    color: aquamarine;
+}
+#res li{
+    color: powderblue;
+}
 #res button{
     color: #43ea43;
 }
