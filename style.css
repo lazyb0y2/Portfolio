@@ -12,7 +12,7 @@ html {
 }
 #navigation a {
     display: inline-block;
-    width: 19.5%;
+    width: 18%;
     height: 25px;
     color: #b361a8;
     font-family: 'Montserrat', sans-serif;
@@ -56,7 +56,7 @@ html {
 }
 #res>nav a{
     display: inline-block;
-    width: 19.5%;
+    width: 18%;
     height: 25px;
     color: darkgrey;
 }
@@ -92,7 +92,7 @@ html {
 }
 #pro>nav a{
     display: inline-block;
-    width: 19.5%;
+    width: 18%;
     height: 25px;
     color: blue;
     font-family: 'Montserrat', sans-serif;
@@ -118,7 +118,7 @@ html {
 }
 #ex>nav a{
     display: inline-block;
-    width: 19.5%;
+    width: 18%;
     height: 25px;
     color: #43ea43;
     font-family: 'Montserrat', sans-serif;
@@ -180,7 +180,11 @@ button {
     color: black;
 }
 #awe>nav a{
+    display: inline-block;
+    width: 18%;
+    height: 25px;
     color:dimgrey ;
+    font-family: 'Montserrat', sans-serif;
 }
 #awe>nav a:visited{
     color:black ;
