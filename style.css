@@ -30,7 +30,7 @@ html {
     color: white;
     background-image: url(img/Aura.gif);
     background-repeat: no-repeat;
-    background-size: 200%;
+    background-size: 240%;
 }
 #res h2 {
     color: chartreuse;
@@ -106,36 +106,6 @@ html {
     color: cyan;}
 .pg2 a:hover {
     color: deeppink;
-}
-#ref {
-    background-image: url(img/back1r.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-#ref button{
-    color: black;
-}
-.pg4{
-    color: black;
-}
-#ref>nav {
-    display: block;
-    width: 100%;
-    background-color: silver;
-    color: gold;
-}
-#ref>nav a{
-    display: inline-block;
-    width: 13%;
-    height: 25px;
-    color: crimson;
-    font-family: 'Montserrat', sans-serif;
-}
-#ref>nav a:visited {
-    color: darkorange;
-}
-#ref>nav a:hover {
-    color: lemonchiffon;
 }
 #cert {
     background-image: url(img/back3.png);
