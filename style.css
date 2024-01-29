@@ -162,6 +162,9 @@ button {
     color: white;
     font-size: larger;
 }
+button:hover{
+    color: lightblue;
+}
 #hide{
     font-size: 2px;
 }
