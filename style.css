@@ -203,3 +203,6 @@ button:hover{
 #awe button {
     color: darkgoldenrod;
 }
+#awe button:hover{
+    color: #b46ed9;
+}
