@@ -3,6 +3,9 @@ html {
     width: 100%;
     margin: 0;
 }
+body{
+    background-image: url("img/cloud.gif");
+}
 #port>nav {
     display: block;
     width: 100%;
