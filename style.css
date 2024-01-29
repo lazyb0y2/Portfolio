@@ -3,11 +3,6 @@ html {
     width: 100%;
     margin: 0;
 }
-body{
-    background-image: url("img/cloud.gif");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
 #port>nav {
     display: block;
     width: 100%;
@@ -29,7 +24,9 @@ body{
     color: hotpink;
 }
 #port {
-    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ix)
+    background-image: url("img/cloud.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 #res {
     color: white;
