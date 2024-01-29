@@ -49,6 +49,9 @@ html {
 #res button{
     color: #43ea43;
 }
+#res button:hover{
+    color: powderblue;
+}
 #res>nav {
     display: block;
     width: 100%;
@@ -85,6 +88,9 @@ html {
 }
 #pro button{
     color: #53c4ea;
+}
+#pro button:hover{
+    color: cyan;
 }
 #pro>nav {
     display: block;
