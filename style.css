@@ -28,6 +28,9 @@ html {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#port p{
+
+}
 #res {
     color: white;
     background-image: url(img/Aura.gif);
