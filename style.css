@@ -224,3 +224,6 @@ button:hover{
     background-size: 100%;
     color: white;
 }
+#prize img{
+    width: 20px;
+}
