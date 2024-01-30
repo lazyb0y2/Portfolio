@@ -227,3 +227,6 @@ button:hover{
 #prize img{
     width: 200px;
 }
+#special{
+    background-image: url("img/hide.gif");
+}
