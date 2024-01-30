@@ -49,6 +49,9 @@ html {
 #res li{
     color: powderblue;
 }
+#res a{
+    color: cyan;
+}
 #res button{
     color: #43ea43;
 }
