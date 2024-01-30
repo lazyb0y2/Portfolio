@@ -218,3 +218,8 @@ button:hover{
 #awe button:hover{
     color: #b46ed9;
 }
+#prize{
+    background-image: url("img/tree.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
