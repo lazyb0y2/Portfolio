@@ -222,4 +222,5 @@ button:hover{
     background-image: url("img/tree.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
+    color: white;
 }
