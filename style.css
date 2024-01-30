@@ -231,3 +231,6 @@ button:hover{
     background-image: url("img/hide.gif");
     color: #f6ac31;
 }
+#special>nav a{
+    color: #f6ac31;
+}
