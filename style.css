@@ -28,8 +28,8 @@ html {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-#port p{
-
+#port{
+    color: white;
 }
 #res {
     color: white;
