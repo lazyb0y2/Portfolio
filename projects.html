@@ -53,14 +53,28 @@
 <script>
     const speakButton3 = document.getElementById('speakButton3');
     speakButton3.addEventListener('click', () => {
-        const message = "None at the moment";
+        const message = "This website is basically a project for me";
         const speech = new SpeechSynthesisUtterance(message);
         speech.lang = 'en-US';
         speech.rate = 0.9;
         window.speechSynthesis.speak(speech);
     });
 </script>
-<p class="pg3">None at the moment</p>
+<p class="pg3">This website is basically a project for me</p>
+<hr>
+<h2 class="pg3">Project 3 </h2>
 
+<button id="speakButton4">Text to speech</button>
+<script>
+    const speakButton4 = document.getElementById('speakButton4');
+    speakButton4.addEventListener('click', () => {
+        const message = "None";
+        const speech = new SpeechSynthesisUtterance(message);
+        speech.lang = 'en-US';
+        speech.rate = 0.9;
+        window.speechSynthesis.speak(speech);
+    });
+</script>
+<p class="pg3">None</p>
 </body>
 </html>
