@@ -20,6 +20,16 @@
             }
         }
     </script>
+    <script>
+        function revealText() {
+            var x = document.getElementById("hiddenText2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </head>
 
 <body id="ex">
@@ -102,7 +112,8 @@
   &lt;/html&gt;</pre>
 <br>
 <h3 class="pg6">Here is the old css code used to design all of these pages.</h3>
-<pre>
+<button onclick="revealText()"><h3>Here is the old code for the résumé</h3></button>
+<pre id="hiddenText2" style="display:none">
    html {
     height: 100%;
     width: 100%;
@@ -294,7 +305,8 @@ button {
     background-color: transparent;
     color: white;
     font-size: larger;
-}
+}</pre>
+<pre>
   </pre>
 <br>
 <h3 class="pg6">Here is python code that can be used to make a pseudo calculator.</h3>
