@@ -5,7 +5,7 @@
     <title>Title</title>>
     <script>
         function revealText() {
-            var x = document.getElementsByClassName("hiddenText");
+            var x = document.getElementById("hiddenText");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -17,9 +17,6 @@
 <body>
 <button onclick="revealText()">Reveal Text</button>
 <p class="hiddenText" style="display:none">This is the hidden text that gets revealed when the button is clicked.</p>
-
-<button onclick="revealText()">Reveal Text</button>
-<p class="hiddenText" style="display:none">This is not hidden text that gets revealed when the button is clicked.</p>
 
 <!--this was for a commit-->
 </body>
