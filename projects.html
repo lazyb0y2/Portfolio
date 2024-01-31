@@ -72,52 +72,60 @@
         });
     </script>
     <br>
-My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues</p>
+My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues
+</p>
 
 <hr>
-<h2 class="pg3">Project 2 </h2>
 
-<button id="speakButton2">Text to speech</button>
-<script>
-    const speakButton2 = document.getElementById('speakButton2');
-    speakButton2.addEventListener('click', () => {
-        const message = "I'm making a background for a webpage on Figma for a school assignment.";
-        const speech = new SpeechSynthesisUtterance(message);
-        speech.lang = 'en-US';
-        speech.rate = 0.9;
-        window.speechSynthesis.speak(speech);
-    });
-</script>
-<p class="pg3">I'm making a background for a webpage on Figma for a school assignment</p>
+<button onclick="revealText2()"><h2>Project 2</h2></button>
+<p id="hiddenText2" style="display:none">
+    <button id="speakButton2">Text to speech</button>
+    <script>
+        const speakButton2 = document.getElementById('speakButton2');
+        speakButton2.addEventListener('click', () => {
+            const message = "I'm making a background for a webpage on Figma for a school assignment.";
+            const speech = new SpeechSynthesisUtterance(message);
+            speech.lang = 'en-US';
+            speech.rate = 0.9;
+            window.speechSynthesis.speak(speech);
+        });
+    </script>
+    <br>
+I'm making a background for a webpage on Figma for a school assignment
+</p>
 <hr>
-<h2 class="pg3">Project 3 </h2>
-
-<button id="speakButton3">Text to speech</button>
-<script>
-    const speakButton3 = document.getElementById('speakButton3');
-    speakButton3.addEventListener('click', () => {
-        const message = "This website is basically a project for me";
-        const speech = new SpeechSynthesisUtterance(message);
-        speech.lang = 'en-US';
-        speech.rate = 0.9;
-        window.speechSynthesis.speak(speech);
-    });
-</script>
-<p class="pg3">This website is basically a project for me</p>
+<button onclick="revealText3()"><h2>Project 3</h2></button>
+<p id="hiddenText3" style="display:none">
+    <button id="speakButton3">Text to speech</button>
+    <script>
+        const speakButton3 = document.getElementById('speakButton3');
+        speakButton3.addEventListener('click', () => {
+            const message = "This website is basically a project for me";
+            const speech = new SpeechSynthesisUtterance(message);
+            speech.lang = 'en-US';
+            speech.rate = 0.9;
+            window.speechSynthesis.speak(speech);
+        });
+    </script>
+    <br>
+    This website is basically a project for me
+</p>
 <hr>
-<h2 class="pg3">Project 4 </h2>
-
-<button id="speakButton4">Text to speech</button>
-<script>
-    const speakButton4 = document.getElementById('speakButton4');
-    speakButton4.addEventListener('click', () => {
-        const message = "None";
-        const speech = new SpeechSynthesisUtterance(message);
-        speech.lang = 'en-US';
-        speech.rate = 0.9;
-        window.speechSynthesis.speak(speech);
-    });
-</script>
-<p class="pg3">None</p>
+<button onclick="revealText4()"><h2>Project 4</h2></button>
+<p id="hiddenText4" style="display:none">
+    <button id="speakButton4">Text to speech</button>
+    <script>
+        const speakButton4 = document.getElementById('speakButton4');
+        speakButton4.addEventListener('click', () => {
+            const message = "None";
+            const speech = new SpeechSynthesisUtterance(message);
+            speech.lang = 'en-US';
+            speech.rate = 0.9;
+            window.speechSynthesis.speak(speech);
+        });
+    </script>
+    <br>
+    None
+</p>
 </body>
 </html>
