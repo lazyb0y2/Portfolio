@@ -76,6 +76,9 @@ html {
 #res>nav a:hover {
     color: lime;
 }
+.pg2 a:hover{
+    color: blue;
+}
 #pro {
     padding: 20px;
     color: white;
