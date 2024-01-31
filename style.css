@@ -140,6 +140,9 @@ html {
     color: #43ea43;
     font-family: 'Montserrat', sans-serif;
 }
+#ex button{
+    color: #43ea43;
+}
 #ex>nav a:visited {
     color: #ec0e3a;
 }
