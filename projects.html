@@ -57,20 +57,23 @@
     <a href="awards.html">Awards</a> <
 </nav>
 <h1 class="pg3">My Projects</h1>
-<h2 class="pg3">Project 1</h2>
 
-<button id="speakButton">Text to speech</button>
-<script>
-    const speakButton = document.getElementById('speakButton');
-    speakButton.addEventListener('click', () => {
-        const message = "My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues";
-        const speech = new SpeechSynthesisUtterance(message);
-        speech.lang = 'en-US';
-        speech.rate = 0.9;
-        window.speechSynthesis.speak(speech);
-    });
-</script>
-<p class="pg3">My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues</p>
+<button onclick="revealText()"><h2>Project 1</h2></button>
+<p id="hiddenText" style="display:none">
+    <button id="speakButton">Text to speech</button>
+    <script>
+        const speakButton = document.getElementById('speakButton');
+        speakButton.addEventListener('click', () => {
+            const message = "My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues";
+            const speech = new SpeechSynthesisUtterance(message);
+            speech.lang = 'en-US';
+            speech.rate = 0.9;
+            window.speechSynthesis.speak(speech);
+        });
+    </script>
+    <br>
+My first and only project called Gamw Project as you can infer from the name it's a game project that is in working process by me and three friends, but it's currently on hold because of technical issues</p>
+
 <hr>
 <h2 class="pg3">Project 2 </h2>
 
