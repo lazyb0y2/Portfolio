@@ -9,6 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <script>
+        function revealText() {
+            var x = document.getElementById("hiddenText");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
 </head>
 <body id="prize">
 <nav id="navigation">>
@@ -18,7 +28,9 @@
     <a href="examples.html">Examples</a>
     <a href="awards.html">Awards</a> <
 </nav>
-<p>Wow, it's a surprise to see you here anyway here's your reward</p>
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/present.png" alt="Surprise"></a>
+<button onclick="revealText()">Wow, it's a surprise to see you here anyway click here's for your reward.</button>
+<p id="hiddenText" style="display:none">
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="img/present.png" alt="Surprise"></a>
+</p>
 </body>
 </html>
