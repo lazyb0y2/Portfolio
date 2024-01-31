@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
     <script>
         function revealText() {
-            var x = document.getElementById("hiddenText");
+            const x = document.getElementById("hiddenText");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -22,7 +22,17 @@
     </script>
     <script>
         function revealText2() {
-            var x = document.getElementById("hiddenText2");
+            const x = document.getElementById("hiddenText2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <script>
+        function revealText3() {
+            const x = document.getElementById("hiddenText3");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -112,7 +122,6 @@
   &lt;/html&gt;</pre>
 <br>
 <br>
-<h3 class="pg6"></h3>
 <button onclick="revealText2()" class="pg6"><h3>Here is the old css code used to design all of these pages.</h3></button>
 <pre id="hiddenText2" style="display:none">
    html {
@@ -307,12 +316,10 @@ button {
     color: white;
     font-size: larger;
 }</pre>
-<pre>
-  </pre>
 <br>
 <br>
-<h3 class="pg6">Here is python code that can be used to make a pseudo calculator.</h3>
-<pre>
+<button onclick="revealText3()" class="pg6"><h3>Here is python code that can be used to make a pseudo calculator.</h3></button>
+<pre id="hiddenText3" style="display:none">
   number1 = input("type a number: ")
   number2 = input("type a second number: ")
   print("here the directions + is addition - is subtraction / is dividing * is multiply")
@@ -328,7 +335,7 @@ button {
     result = int(number1) * int(number2)
 
   print(result)
-</pre>
+}</pre>
 <br>
 <br>
 <h3 class="pg6">Here is a code for to make a replica of a report card.</h3>
