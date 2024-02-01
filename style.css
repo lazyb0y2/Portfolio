@@ -42,6 +42,7 @@ html {
 }
 #res h1 {
     color: chartreuse;
+    text-shadow: 2px 2px 2px aquamarine, 2px 2px 2px chartreuse;
 }
 #res p{
     color: aquamarine;
