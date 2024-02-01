@@ -94,6 +94,7 @@ html {
 }
 #pro h1{
     color: deeppink;
+    text-shadow: 2px 2px 25px cyan;
 }
 #pro button{
     color: #53c4ea;
