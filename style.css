@@ -88,9 +88,11 @@ html {
 }
 #pro>p{
     color: cyan;
+    text-shadow: 2px 2px 10px hotpink;
 }
 #pro h2{
     color: #d95ed9;
+    text-shadow: 2px 2px 5px hotpink;
 }
 #pro h1{
     color: deeppink;
