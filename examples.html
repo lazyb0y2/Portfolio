@@ -526,11 +526,11 @@ print(place)
 <br>
 <button onclick="revealText7()" class="pg6"><h3>Here is the code from my text to speech buttons</h3></button>
 <pre id="hiddenText7" style="display:none">
-&lt;button id="speakButton"&gt;Text to speech&lt;/button&gt;
+&lt;button id="speakButton"&gt;{words go here}&lt;/button&gt;
     &lt;script&gt;
         const speakButton = document.getElementById('speakButton');
         speakButton.addEventListener('click', () => {
-            const message = "I'm Mezziah, an awe inspiring Game and Web developer who lives in the city of Boston and likes pasta, relaxing, and gaming. I'm currently 17 years old when making this and I would like to be a good addition to your team if you would have me.For more information use the navigation bar on the top to see my resume, projects that are either finished or being worked on, references to creditable people who can vouch for me if you need to check to see if I'm legit, and my certifications.";
+            const message = "{words go here}";
             const speech = new SpeechSynthesisUtterance(message);
             speech.lang = 'en-US';;
             speech.rate = 0.9;
