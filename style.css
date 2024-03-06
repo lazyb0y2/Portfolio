@@ -12,7 +12,7 @@ html {
 }
 #navigation a {
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color: #b361a8;
     font-family: 'Montserrat', sans-serif;
@@ -68,7 +68,7 @@ html {
 }
 #res>nav a{
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color: darkgrey;
 }
@@ -114,7 +114,7 @@ html {
 }
 #pro>nav a{
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color: blue;
     font-family: 'Montserrat', sans-serif;
@@ -140,7 +140,7 @@ html {
 }
 #ex>nav a{
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color: #43ea43;
     font-family: 'Montserrat', sans-serif;
@@ -209,7 +209,7 @@ button:hover{
 }
 #awe>nav a{
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color:dimgrey ;
     font-family: 'Montserrat', sans-serif;
@@ -251,7 +251,7 @@ button:hover{
 }
 #pri>nav a{
     display: inline-block;
-    width: 16%;
+    width: 12%;
     height: 25px;
     color:dodgerblue ;
     font-family: 'Montserrat', sans-serif;
@@ -267,4 +267,16 @@ button:hover{
 }
 #pri>a:hover{
     color: chartreuse;
+}
+
+#int>nav{
+    background-color:black ;
+    color: lightgrey;
+}
+#int>nav a{
+    display: inline-block;
+    width: 12%;
+    height: 25px;
+    color:dodgerblue ;
+    font-family: 'Montserrat', sans-serif;
 }
