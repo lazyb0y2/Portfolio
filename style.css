@@ -262,3 +262,9 @@ button:hover{
 #pri>nav a:hover{
     color: dimgrey;
 }
+#pri>a:visited{
+    color: blueviolet;
+}
+#pri>a:hover{
+    color: chartreuse;
+}
