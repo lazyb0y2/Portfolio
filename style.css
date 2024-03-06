@@ -209,7 +209,7 @@ button:hover{
 }
 #awe>nav a{
     display: inline-block;
-    width: 18%;
+    width: 16%;
     height: 25px;
     color:dimgrey ;
     font-family: 'Montserrat', sans-serif;
@@ -244,4 +244,18 @@ button:hover{
 }
 #special>nav a{
     color: #f6ac31;
+}
+#pri>nav{
+    background-color:black ;
+    color: lightgrey;
+}
+#pri>nav a{
+    display: inline-block;
+    width: 16%;
+    height: 25px;
+    color:white ;
+    font-family: 'Montserrat', sans-serif;
+}
+#pri>nav a:hover{
+    color: dimgrey;
 }
