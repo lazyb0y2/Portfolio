@@ -253,12 +253,12 @@ button:hover{
     display: inline-block;
     width: 16%;
     height: 25px;
-    color:white ;
+    color:dodgerblue ;
     font-family: 'Montserrat', sans-serif;
+}
+#pri>nav a:visited{
+    color: white;
 }
 #pri>nav a:hover{
     color: dimgrey;
-}
-#pri>nav a:visited{
-    color: dodgerblue;
 }
