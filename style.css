@@ -259,3 +259,6 @@ button:hover{
 #pri>nav a:hover{
     color: dimgrey;
 }
+#pri>nav a:visited{
+    color: dodgerblue;
+}
