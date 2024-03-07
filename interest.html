@@ -19,6 +19,14 @@
                 x.style.display = "none";
             }
         }
+        function revealText2() {
+            const x = document.getElementById("hiddenText2");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
     </script>
 </head>
 <body id="int">
@@ -34,5 +42,7 @@
 <h1>My Interest</h1>
 <button onclick="revealText()"><h2>Games</h2></button>
 <p id="hiddenText" style="display:none"></p>
+<button onclick="revealText2()"><h2>Shows</h2></button>
+<p id="hiddenText2" style="display:none"></p>
 </body>
 </html>
