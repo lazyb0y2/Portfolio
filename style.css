@@ -280,3 +280,6 @@ button:hover{
     color:dodgerblue ;
     font-family: 'Montserrat', sans-serif;
 }
+#int button{
+    color: black;
+}
