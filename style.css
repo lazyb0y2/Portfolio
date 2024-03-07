@@ -273,6 +273,9 @@ button:hover{
     background-color:black ;
     color: lightgrey;
 }
+#int{
+    color: white;
+}
 #int>nav a{
     display: inline-block;
     width: 12%;
@@ -281,5 +284,10 @@ button:hover{
     font-family: 'Montserrat', sans-serif;
 }
 #int button{
-    color: black;
+    color: white;
+}
+#int {
+    background-image: url("img/lazer.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
