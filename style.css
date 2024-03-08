@@ -283,6 +283,12 @@ button:hover{
     color:dodgerblue ;
     font-family: 'Montserrat', sans-serif;
 }
+#int>nav a:visited{
+    color: teal;
+}
+#int>nav a:hover{
+    color: lightyellow;
+}
 #int button{
     color: white;
 }
