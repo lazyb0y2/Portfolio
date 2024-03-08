@@ -313,3 +313,7 @@ button:hover{
     background-color: black;
     color: aqua;
 }
+#cursed{
+    background-color: #00001e;
+    color: red;
+}
