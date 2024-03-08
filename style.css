@@ -291,3 +291,7 @@ button:hover{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+#speed {
+    background-color: black;
+    color: white;
+}
