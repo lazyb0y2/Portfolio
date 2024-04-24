@@ -337,3 +337,7 @@ button:hover{
     background-color: grey;
     color: orange;
 }
+#key{
+    background-color: black;
+    color: slategray;
+}
