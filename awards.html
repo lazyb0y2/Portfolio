@@ -25,14 +25,15 @@
 <script>
     const speakButton = document.getElementById('speakButton');
     speakButton.addEventListener('click', () => {
-        const message = "My Awards. So far, no awards to be mentioned or talked about so, sorry.";
+        const message = "My Awards. So far the only one is my Python certification certificate, other than that no awards to be mentioned or talked about so, sorry.";
         const speech = new SpeechSynthesisUtterance(message);
         speech.lang = 'en-US';
         speech.rate = 0.9;
         window.speechSynthesis.speak(speech);
     });
 </script>
-<p class="pg7">So far, no awards to be mentioned or talked about so, sorry.</p>
+<br>
+<img class="pg7" src="img2/pytificate.png" alt="python certification" width="400px">
 
 </body>
 </html>
